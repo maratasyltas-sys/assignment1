@@ -1,0 +1,110 @@
+body {
+    background-color: khaki;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(132, 132, 218);
+}
+
+#main-heading {
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    color: rgb(206, 93, 93);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.highlight {
+    background-color: rgb(157, 218, 245);
+    color: black;
+    font-weight: bold;
+    padding: 0.6em;       
+    margin-bottom: 10px;    
+    border-radius: 5px;
+}
+img {
+    width: 50%;          
+}
+
+.header {
+    background-color: rgb(150, 150, 255);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid rgb(255, 234, 116);
+}
+
+.main {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    padding: 20px;                      
+    border: 3px solid rgb(112, 112, 208);
+    border-radius: 10px;  
+}
+
+.footer {
+    background-color: darkslategray;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-top: 4px dashed rgb(255, 207, 117); 
+    margin-top: 30px;               
+    text-align: center;
+}
+
+
+.static-box {
+    position: static;
+    background-color: rgb(169, 255, 169);
+    padding: 10px;
+    color: white;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-color: rgb(250, 207, 128);
+    padding: 10px;
+    color: white;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(255, 134, 134);
+    padding: 10px;
+    color: white;
+}
+
+.main {
+    position: relative;
+}
+
+.float-left {
+    float: left;
+    width: 45%;
+    background-color: lightblue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+    width: 45%;
+    background-color: lightcoral;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.clear-fix {
+    clear: both;
+}
